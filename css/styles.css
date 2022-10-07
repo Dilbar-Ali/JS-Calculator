@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 .form-label{
     color: white;
@@ -21,6 +22,8 @@ background: rgb(61,61,61);
     width: 400px;
     background: #292b2c;
     box-shadow: 0 0 12px black;
+    /* position: fixed; */
+    border: 10px;
 }
 
 .btn-row{
@@ -35,6 +38,9 @@ color: white;
 background: #292b2c;
 font-size: 16px;
 height: 90px;
+width: 90px;
+border-radius: 600px;
+margin-top: 8px;
 }
 
 .op{
@@ -49,6 +55,7 @@ height: 90px;
 #display{
     padding: 20px;
     width: 100%;
- box-shadow: 0 3px 2px  1px white;
+ box-shadow: 0 3px 0.2px  0.2px white;
  margin-bottom: 10px;   
+ color: white;
 }
